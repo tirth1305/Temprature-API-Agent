@@ -3,13 +3,13 @@ from twilio.rest import Client
 from fake_useragent import UserAgent  # Import UserAgent from fake-useragent
 
 # Twilio credentials (replace with your own)
-account_sid = 'AC4043c050f46311992a89bee778cb4b7f'
-auth_token = 'ff0bcf46dc6d56a8ce06ecc36053680b'
-twilio_phone_number = '+12512205010'
-recipient_phone_number = '+917802036041'
+account_sid = '##'
+auth_token = '##'
+twilio_phone_number = '##'
+recipient_phone_number = '##'
 
 # OpenWeatherMap API key (replace with your own)
-api_key = 'f8db1590bd766078927840d37a6c10ae'
+api_key = '##'
 
 # Generate a random User-Agent string using fake-useragent
 user_agent = UserAgent()
