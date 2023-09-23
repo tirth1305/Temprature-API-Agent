@@ -5,17 +5,23 @@ This Python script allows you to retrieve the current temperature of a specified
 # Prerequisites
 Before you can use this script, you need to set up the following:
 
-# Twilio Account: You need to have a Twilio account. If you don't have one, you can sign up at Twilio.
+# Twilio Account
+You need to have a Twilio account. If you don't have one, you can sign up at Twilio.
 
-# Twilio Credentials: Replace the placeholders in the script with your actual Twilio Account SID and Auth Token. You can find these credentials in your Twilio dashboard.
+# Twilio Credentials
+Replace the placeholders in the script with your actual Twilio Account SID and Auth Token. You can find these credentials in your Twilio dashboard.
 
-# Twilio Phone Number: Replace twilio_phone_number with your Twilio phone number. This is the phone number that will be used to send the SMS.
+# Twilio Phone Number
+: Replace twilio_phone_number with your Twilio phone number. This is the phone number that will be used to send the SMS.
 
-# Recipient Phone Number: Replace recipient_phone_number with the recipient's phone number. This is where the SMS with the temperature will be sent.
+# Recipient Phone Number:
+Replace recipient_phone_number with the recipient's phone number. This is where the SMS with the temperature will be sent.
 
-# OpenWeatherMap API Key: You need to sign up for an OpenWeatherMap API key at OpenWeatherMap and replace the api_key in the script.
+# OpenWeatherMap API Key:
+You need to sign up for an OpenWeatherMap API key at OpenWeatherMap and replace the api_key in the script.
 
-# Python Libraries: Make sure you have the required Python libraries installed. You can install them using pip:
+# Python Libraries: 
+Make sure you have the required Python libraries installed. You can install them using pip:
 
 # Copy code
 pip install requests twilio fake-useragent
